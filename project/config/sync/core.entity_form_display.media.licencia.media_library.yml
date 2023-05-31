@@ -1,0 +1,29 @@
+uuid: 0028b7f0-a582-4f8f-a878-22b25e3bf73a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.licencia.field_licencias
+    - field.field.media.licencia.field_media_file
+    - media.type.licencia
+id: media.licencia.media_library
+targetEntityType: media
+bundle: licencia
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_licencias: true
+  field_media_file: true
+  path: true
+  status: true
+  uid: true

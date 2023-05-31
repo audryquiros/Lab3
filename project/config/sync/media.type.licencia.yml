@@ -1,0 +1,13 @@
+uuid: 6a6f82a8-430b-4177-b331-9240ba27663b
+langcode: en
+status: true
+dependencies: {  }
+id: licencia
+label: Licencia
+description: 'Laboratorio 2'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

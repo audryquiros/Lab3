@@ -1,0 +1,24 @@
+uuid: d8aca647-a871-478d-a76c-a4c1176001df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lab2.field_archivo
+    - field.field.node.lab2.field_tipo_de_lincencia
+    - node.type.lab2
+  module:
+    - user
+id: node.lab2.teaser
+targetEntityType: node
+bundle: lab2
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_archivo: true
+  field_tipo_de_lincencia: true

@@ -1,0 +1,29 @@
+uuid: 251bc863-7813-48a0-85cf-38a04145edac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo
+    - media.type.licencia
+    - node.type.lab2
+id: node.lab2.field_archivo
+field_name: field_archivo
+entity_type: node
+bundle: lab2
+label: archivo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

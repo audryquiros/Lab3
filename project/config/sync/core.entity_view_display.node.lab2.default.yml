@@ -1,0 +1,38 @@
+uuid: cbe26542-7ac4-4015-9ed7-0a17bd22a937
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.lab2.field_archivo
+    - field.field.node.lab2.field_tipo_de_lincencia
+    - node.type.lab2
+  module:
+    - user
+id: node.lab2.default
+targetEntityType: node
+bundle: lab2
+mode: default
+content:
+  field_archivo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_tipo_de_lincencia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

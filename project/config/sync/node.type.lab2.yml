@@ -1,0 +1,18 @@
+uuid: 8f1031ab-5c52-487b-971d-ab77f19d63ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Lab2
+type: lab2
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
