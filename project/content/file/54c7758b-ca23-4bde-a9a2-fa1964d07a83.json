@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/sites\/default\/files\/media-icons\/generic\/generic.png"
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/0?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "54c7758b-ca23-4bde-a9a2-fa1964d07a83"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "73b2348c-1c9c-43db-a2ff-6369e23575d0"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generic.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/media-icons\/generic\/generic.png",
+            "url": "\/sites\/default\/files\/media-icons\/generic\/generic.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3900
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-31T03:11:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-31T03:11:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

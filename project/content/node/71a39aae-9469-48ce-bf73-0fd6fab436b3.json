@@ -1,0 +1,187 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/node\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/node\/lab2"
+        },
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/revision_uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/field_archivo": [
+            {
+                "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/media\/2\/edit?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/field_tipo_de_lincencia": [
+            {
+                "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 7
+        }
+    ],
+    "uuid": [
+        {
+            "value": "71a39aae-9469-48ce-bf73-0fd6fab436b3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "lab2"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-05-31T03:17:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9b8faabb-40bd-409c-b24a-78999b05da15"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9b8faabb-40bd-409c-b24a-78999b05da15"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/field_archivo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/media\/licencia"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f6acd813-aca9-414b-9ff2-e5343a6ca55d"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/node\/lab2\/field_tipo_de_lincencia": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/licencias"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "81729796-4be7-4e23-89d7-160b4c3d761d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Meus Quadrum",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-27T15:33:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-05-31T03:17:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

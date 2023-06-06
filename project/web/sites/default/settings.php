@@ -759,6 +759,8 @@ $settings['entity_update_batch_size'] = 50;
  */
 $settings['entity_update_backup'] = TRUE;
 
+$settings['config_sync_directory'] = '../config/sync';
+$settings['default_content_deploy_content_directory'] = '../content';
 /**
  * Node migration type.
  *
