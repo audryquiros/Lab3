@@ -1,0 +1,20 @@
+uuid: 167ee4d8-de2d-4c9b-8ec8-c0c8b4775e27
+langcode: en
+status: true
+dependencies:
+  theme:
+    - temalab
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: temalab_primary_admin_actions
+theme: temalab
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

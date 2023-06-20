@@ -1,0 +1,22 @@
+uuid: 120fbd84-5e47-4184-a9ee-5a65254538c2
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - temalab
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: temalab_powered
+theme: temalab
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 4731ff41-c390-4e75-8903-28ef211a0202
+langcode: en
+status: true
+dependencies:
+  theme:
+    - temalab
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: temalab_primary_local_tasks
+theme: temalab
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

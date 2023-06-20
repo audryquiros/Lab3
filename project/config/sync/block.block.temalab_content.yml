@@ -1,0 +1,22 @@
+uuid: 5f37fb52-a39f-4ba1-8f93-5a1a007bf8dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - temalab
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: temalab_content
+theme: temalab
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

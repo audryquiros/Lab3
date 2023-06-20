@@ -1,0 +1,35 @@
+name: temalab
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - temalab/base
+  - temalab/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - temalab/user
+  core/drupal.dropbutton:
+    - temalab/dropbutton
+  core/drupal.dialog:
+    - temalab/dialog
+  file/drupal.file:
+    - temalab/file
+  core/drupal.progress:
+    - temalab/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.9'
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer: 'Footer'

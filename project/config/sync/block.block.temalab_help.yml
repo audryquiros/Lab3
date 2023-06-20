@@ -1,0 +1,22 @@
+uuid: addb1f60-8133-4f37-ac56-f1c89c55dfa5
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - temalab
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: temalab_help
+theme: temalab
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
