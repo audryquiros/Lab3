@@ -1,0 +1,19 @@
+uuid: 97110f02-35f3-49a9-b3ec-12425c7bad6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_largo
+    - paragraphs.paragraphs_type.title_text_cta
+id: paragraph.title_text_cta.field_texto_largo
+field_name: field_texto_largo
+entity_type: paragraph
+bundle: title_text_cta
+label: 'Texto Largo'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

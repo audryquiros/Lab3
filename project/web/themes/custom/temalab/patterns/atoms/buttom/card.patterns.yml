@@ -1,0 +1,35 @@
+card:
+  label: 'Button'
+  description: 'Button component'
+  fields:
+    title:
+      type: string
+      label: title
+      description: Text to be placed on the Title.
+      preview: 'Title'
+    paragraph:
+      type: string
+      label: paragraph
+      description: Text to be placed on the paragraph.
+      preview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at ligula dignissim, euismod elit lobortis, luctus ex. Cras nisi erat, blandit vitae ipsum quis, pharetra congue tellus.'
+    text:
+      type: string
+      label: Button text
+      description: Text to be placed on the button.
+      preview: 'Read More'
+    url:
+      type: url
+      label: URL
+      description: URL that user will be redirected to.
+      preview: https://www.google.com
+    color:
+      type: string
+      label: color
+      description: Text to be placed on the color.
+      preview: '#C71171'
+  libraries:
+      -
+        button:
+          css:
+            component:
+              css/styles.css: {}

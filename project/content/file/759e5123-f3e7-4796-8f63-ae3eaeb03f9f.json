@@ -1,16 +1,11 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/sites\/default\/files\/2023-05\/hnjw0SJ4dl.txt"
+            "href": "https:\/\/8080-emilyvargas-laboratorio-fib9x6dlbdv.ws-us100.gitpod.io\/sites\/default\/files\/2023-05\/hnjw0SJ4dl.txt"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/file\/file"
-        },
-        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
-            {
-                "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/1?_format=hal_json"
-            }
-        ]
+            "href": "https:\/\/8080-emilyvargas-laboratorio-fib9x6dlbdv.ws-us100.gitpod.io\/rest\/type\/file\/file"
+        }
     },
     "fid": [
         {
@@ -27,25 +22,6 @@
             "value": "en"
         }
     ],
-    "_embedded": {
-        "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "https:\/\/8080-emilyvargas-laboratorio-d8f0cbta1re.ws-us98.gitpod.io\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "9b8faabb-40bd-409c-b24a-78999b05da15"
-                    }
-                ]
-            }
-        ]
-    },
     "filename": [
         {
             "value": "hnjw0SJ4dl.txt"

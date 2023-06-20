@@ -1,0 +1,10 @@
+uuid: db9a8f0a-236b-4199-aea8-86135f5785d2
+langcode: en
+status: true
+dependencies: {  }
+id: contenido_dos_columnas
+label: 'Contenido Dos Columnas'
+icon_uuid: null
+icon_default: null
+description: 'Contenido para dos columnas'
+behavior_plugins: {  }

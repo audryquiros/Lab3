@@ -1,0 +1,18 @@
+uuid: a44b2700-3df8-4d61-80b7-bb867141ebec
+langcode: en
+status: true
+dependencies:
+  theme:
+    - temalab
+id: pagetitle
+theme: temalab
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

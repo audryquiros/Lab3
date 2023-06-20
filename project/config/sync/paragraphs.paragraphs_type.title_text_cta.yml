@@ -1,0 +1,10 @@
+uuid: de73c914-268e-4087-9faf-0518a065f0fe
+langcode: en
+status: true
+dependencies: {  }
+id: title_text_cta
+label: 'Title Text Cta'
+icon_uuid: null
+icon_default: null
+description: 'Primera parte del Laboratorio'
+behavior_plugins: {  }
